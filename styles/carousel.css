@@ -19,6 +19,11 @@ p {
   /* NAVBAR
   -------------------------------------------------- */
 
+  .navbar-nav > .nav-item.active > .nav-link.active-link {
+    font-family: 'din-bold';
+    color: olivedrab;
+  }
+
   .nav-link {
     font-family: 'din-light';
   }
@@ -26,6 +31,14 @@ p {
   .dropdown-item {
     font-family: 'din-light';
   }
+
+  /* SPACERS
+  -------------------------------------------------- */
+
+  .navbar-spacer {
+    margin-top: 100px;
+  }
+
 
   /* CAROUSEL
   -------------------------------------------------- */
