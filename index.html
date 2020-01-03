@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,51 +16,66 @@
 
     <!-- Custom styles for this template -->
     <link href="styles/carousel.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/f4a100d9ff.js" crossorigin="anonymous"></script>
+
   </head>
   <body>
 
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark justify-content-md-center justify-content-start">
         <img class="navbar-brand icon" src="media/navbar-logo.png" style="width: 64px; height: 64px;"/>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link" href="#">Accueil <span class="sr-only">(actuel)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Philosophie</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">La Carte</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Nos Ambassades</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Franchise</a>
-			</li>
-			<li class="nav-item dropdown mr-sm-2">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Faites-vous Livrer !
-				</a>
-				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="#">Uber Eats</a>
-					<a class="dropdown-item" href="#">Deliveroo</a>
-				</div>
-			</li>
+			      </li>
+			      <li class="nav-item">
+				      <a class="nav-link" href="#">La Carte</a>
+			      </li>
+			      <li class="nav-item">
+			      	<a class="nav-link" href="#">Nos Ambassades</a>
+		      	</li>
+		      	<li class="nav-item">
+		      		<a class="nav-link" href="#">Franchise</a>
+	      		</li>
+	      		<li class="nav-item dropdown mr-sm-2">
+	      			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				      	Faites-vous Livrer !
+		      		</a>
+		    		  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				      	<a class="dropdown-item" href="#">Uber Eats</a>
+				      	<a class="dropdown-item" href="#">Deliveroo</a>
+				      </div>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">
+            <li class="nav-item">
+              <a class="fab fa-facebook-square fa-3x" href="https://www.facebook.com/lambassadebretonne" style="color: white; padding: 10px;"></a>
+            </li>
+            <li class="nav-item">
+              <a class="fab fa-instagram fa-3x" href="https://www.instagram.com/lambassadebretonne/" style="color: white; padding: 10px;"></a>
+            </li>
           </ul>
         </div>
       </nav>
     </header>
 
+
     <main role="main">
 
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Carousel -->
+      <div id="Carousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#Carousel" data-slide-to="0" class="active"></li>
 			<!--
 		  <li data-target="#myCarousel" data-slide-to="1"></li>
 		  <li data-target="#myCarousel" data-slide-to="2"></li>
@@ -71,8 +86,8 @@
             <img class="first-slide img-fluid" src="media/home-carousel.jpg" alt="Carousel">
             <div class="container">
               <div class="carousel-caption text-left">
-                <h1>L'Ambassade Bretonne</h1>
-                <p>Fondée par Jérémy et Frédéric, L'Ambassade Bretonne a pour ambition d'ancrer l'image des crêperies bretonnes, entre Tradition et Modernité.</p>
+                <h1><strong>L'Ambassade Bretonne</strong></h1>
+                <p><b>Fondée par Jérémy et Frédéric, L'Ambassade Bretonne a pour ambition d'ancrer l'image des crêperies bretonnes, entre Tradition et Modernité.</b></p>
               </div>
             </div>
 		  </div>
@@ -99,11 +114,11 @@
 		  </div>
 		-->
         </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#Carousel" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#Carousel" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
@@ -130,17 +145,47 @@
         </div><!-- /.row -->
 
 
-        <!-- START THE FEATURETTES -->
+        <!-- Featurettes -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Mais qu'est ce que c'est bon !</h2>
+            <p class="lead">
+              <b>Voilà ma première réaction après avoir goûté à ma première crêpe.</b><br />
+              Deux frères super accueillants et avec de l'humour nous rappellent que la crêpe est l'un des meilleurs aliments. 
+              (Bien sûr, après la première crêpe, et vu la multitude de garnisons possibles, je me suis senti obligé d'en reprendre une autre...)
+            </p>
+            <p class="lead signature"> - Théo</p>
+          </div>
+          <div class="col-md-5 order-md-1 d-flex justify-content-center" style="display: flex; align-items: center;">
+            <div class="d-inline-flex featurette-stars">
+              <i class="fas fa-star fa-2x"></i>
+              <i class="fas fa-star fa-2x"></i>
+              <i class="fas fa-star fa-2x"></i>
+              <i class="fas fa-star fa-2x"></i>
+              <i class="fas fa-star fa-2x"></i>
+            </div>
+          </div>
+        </div>
 
         <hr class="featurette-divider">
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">"Que demander de mieux ? Pas grand chose !"</h2>
+            <p class="lead">Super accueil de deux frères qui nous régale de crêpes et de glaces, avec le sourire et de bon conseils !</p>
+            <p class="lead signature"> - Laurie</p>
           </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <div class="col-md-5 d-flex justify-content-center" style="display: flex; align-items: center;">
+            <div class="d-inline-flex featurette-stars">
+              <i class="fas fa-star fa-2x"></i>
+              <i class="fas fa-star fa-2x"></i>
+              <i class="fas fa-star fa-2x"></i>
+              <i class="fas fa-star fa-2x"></i>
+              <i class="fas fa-star fa-2x"></i>
+            </div>
           </div>
         </div>
 
@@ -148,37 +193,62 @@
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">"Merci encore ! Nous reviendrons."</h2>
+            <p class="lead">Délicieux petit repas dans cette jolie crêperie. Serveurs avenants qui n’hésitent pas à discuter avec vous, et qui vous accueillent avec le sourire !</p>
+            <p class="lead signature"> - Alison</p>
           </div>
-          <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <div class="col-md-5 order-md-1 d-flex justify-content-center" style="display: flex; align-items: center;">
+            <div class="d-inline-flex featurette-stars">
+              <i class="fas fa-star fa-2x"></i>
+              <i class="fas fa-star fa-2x"></i>
+              <i class="fas fa-star fa-2x"></i>
+              <i class="fas fa-star fa-2x"></i>
+              <i class="fas fa-star fa-2x"></i>
+            </div>
           </div>
         </div>
 
         <hr class="featurette-divider">
-
-        <!-- /END THE FEATURETTES -->
 
       </div><!-- /.container -->
 
+      <!-- Brand Explanation-->
+      <div class="d-xl-flex justify-content-xl-between flex-xl-equal">
+        <div class="bg-dark p-2 flex-fill text-center text-white overflow-hidden" style="min-width: 50%;">
+          <div class="my-3 py-3">
+            <h2 class="display-5"><strong>L'Ambassade</strong>, un nom évocateur.</h2>
+            <ul class="lead">
+              <li>
+                Un nom qui évoque à la fois le voyage, et un endroit où l’on se sent protégé, accueilli, comme chez soi. <wbr />
+                Une envie de faire découvrir des saveurs inconnues, tout en les mélangeant à des goûts rassurants.
+              </li>
+              <li>Un mot qui ressemble à Jérémy Le Troadec, un des fondateurs, du fait de ses voyages et de ses inspirations.</li>
+              <li>Un nom qui guide l'ADN du concept, avec un Logo qui évoque les tampons faits aux frontières, et une carte à l’allure de passeport.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="bg-light p-2 flex-fill text-center overflow-hidden" style="min-width: 50%;">
+          <div class="my-3 p-3">
+            <h2 class="display-5"><strong>Bretonne</strong>, une valeur forte.</h2>
+            <ul class="lead">
+              <li>Un point de repère qui vient créer un socle, et une identité forte.</li>
+              <li>Un nom qui fait écho à Frédéric Le Troadec, le second créateur du concept, bien ancré dans sa Bretagne natale, et ses traditions.</li>
+              <li>La seconde partie de l’ADN du concept, qui mise sur un univers visuel à l’image des valeurs des fondateurs.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <br />
+
+      <hr class="featurette-divider">
 
       <!-- FOOTER -->
       <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p class="float-right"><a href="#">Retour en Haut</a></p>
+        <p>&copy; Copyright 2019-2020, L'Ambassade Bretonne</p>
+        <p>&middot; <a href="#">Confidentialité</a> &middot; <a href="#">Termes</a></p>
       </footer>
     </main>
 

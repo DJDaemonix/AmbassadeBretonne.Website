@@ -20,7 +20,7 @@ body {
   .carousel-caption {
 	bottom: 3rem;
 	z-index: 10;
-	text-shadow: 2px 2px 4px #000000;
+	text-shadow: 2px 2px 4px black;
   }
   
   /* Declare heights because of positioning of img element */
@@ -45,7 +45,7 @@ body {
 	text-align: center;
   }
   .marketing .col-lg-4 > img {
-	  box-shadow: 2px 2px 4px #777777;
+	  box-shadow: 2px 2px 4px gray;
   }
 
   .marketing h2 {
@@ -68,10 +68,22 @@ body {
   .featurette-heading {
 	font-weight: 300;
 	line-height: 1;
-	letter-spacing: -.05rem;
+  letter-spacing: -.05rem;
+  font-style: italic;
   }
   
+  .featurette-stars {
+    max-height: 36px; 
+    color: orange; 
+    text-shadow: 2px 2px 4px gray;
+  }
   
+  .lead.signature {
+    text-align: right;
+    font-style: italic;
+    font-weight: lighter;
+    padding-right: 80px;
+  }
   /* RESPONSIVE CSS
   -------------------------------------------------- */
   
