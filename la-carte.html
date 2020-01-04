@@ -19,10 +19,10 @@
 
 		<!-- Font Awesome -->
 		<script src="https://kit.fontawesome.com/f4a100d9ff.js" crossorigin="anonymous"></script>
-
 	</head>
-	<body>
 
+
+	<body>
 		<header>
 			<!-- Navbar -->
 			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark justify-content-md-center justify-content-start">
@@ -35,11 +35,11 @@
 						<li class="nav-item">
 							<a class="nav-link" href="index.html">Accueil</span></a>
 						</li>
-						<li class="nav-item active">
-							<a class="nav-link active-link" href="#">Philosophie <span class="sr-only">(actuel)</a>
-						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="la-carte.html">La Carte</a>
+							<a class="nav-link" href="philosophie.html">Philosophie <span class="sr-only">(actuel)</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link active-link" href="#">La Carte</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#">Nos Ambassades</a>
@@ -70,96 +70,52 @@
 		</header>
 
 		<main role="main">
-			<div class="container marketing navbar-spacer">
-				<div class="row featurette">
-					<div class="col-md-7 order-md-2">
-						<p class="lead">
-							Jérémy Le Troadec, après une enfance passée dans le Centre-Bretagne, rejoint la capitale pour travailler, 
-							et y fait ses premières expériences dans la restauration, et plus particulièrement dans une brasserie de l’Île Saint-Louis.
-						</p>
-						<p class="lead">
-							Il part ensuite voyager autour du monde, et découvre la restauration à l’étranger, et en particulier différentes manières 
-							d’interpréter la fabrication de galettes et de crêpes. C’est là qu’il se rend compte qu’il possède en lui les valeurs 
-							et la tradition nécessaires à l’ouverture d’une crêperie de qualité.
-						</p>
-					</div>
-					<div class="col-md-5 order-md-1 d-flex justify-content-center" style="display: flex; align-items: center;">
-							<img class="featurette-image img-fluid mx-auto rounded" src="media/philosophie/image-1.jpg" alt="En-tête de L'Ambassade Bretonne">
-					</div>
-				</div>
 
-				<hr class="featurette-divider">
-
-				<div class="row featurette">
-					<div class="col-md-7">
-						<p class="lead">
-							Il entraîne son grand frère dans l’aventure, passionnée par la terre, et horticulteur de métier, 
-							avec qui il partage le même respect des matières premières.
-						</p>
-						<p class="lead">
-							Frédéric Le Troadec, habitué aux moissons depuis l’âge de l’adolescence, 
-							rejoint le navire, et délaisse les champs pour les fourneaux.
-						</p>
-					</div>
-					<div class="col-md-5 d-flex justify-content-center" style="display: flex; align-items: center;">
-						<img class="featurette-image img-fluid mx-auto rounded" src="media/philosophie/image-2.jpg" alt="Les frères Le Troadec, ensemble.">
-					</div>
-				</div>
-				
-				<hr class="featurette-divider">
-
-				<div class="container">
-					<h2 class="lead"><b>L'Ambassade Bretonne s'engage envers ses clients sur la base de 4 principes :</b></h2>
-					<br />
-
-					<table class="table table-borderless">
-						<thead></thead>
-						<tbody>
-							<tr>
-								<td><i class="fas fa-star fa-3x"></i></td>
-								<td>
-									<h4>Qualité</h4>
-									<p class="lead">
-										Grâce à une sélection rigoureuse de produits labellisés, provenant de Bretagne ou des alentours,
-										nous garantissons la tradition et l'authenticité du savoir faire, au sein de l'Ambassade Bretonne.
-									</p>
-								</td>
-							</tr>
-							<tr>
-								<td><i class="fas fa-user fa-3x"></i></td>
-								<td>
-									<h4>Satisfaction Client</h4>
-									<p class="lead">
-										Une équipe souriante, avenante, et dynamique, est constamment à l'écoute de nos clients pour répondre à vos attentes. <wbr />
-										L'Ambassade Bretonne propose une ambiance chaleureuse, conviviale, et décontractée, pour le plaisir de tous.
-									</p>
-								</td>
-							</tr>
-							<tr>
-								<td><i class="fas fa-euro-sign fa-3x"></i></td>
-								<td>
-									<h4>Rapport Qualité/Prix</h4>
-									<p class="lead">
-										Nos produits sont soigneusement étudiés pour que nos clients puissent bénéficier du meilleur rapport qualité/prix.
-									</p>
-								</td>
-							</tr>
-							<tr>
-								<td><i class="fas fa-infinity fa-3x"></i></td>
-								<td>
-									<h4>Flexibilité</h4>
-									<p class="lead">
-										Nous nous adaptons constamment aux demandes et besoins de nos clients. <wbr />
-										C'est pourquoi nous leur accordons le contrôle total de leurs garnitures dans leurs crêpes, 
-										mais aussi le choix de consommer où bon leur semble, que ce soit sur place, à emporter, ou même en livraison.
-									</p>
-								</td>
-							</tr>
-						</tbody>
-					</table>
+			<!--Carousel-->
+			<div id="Carousel" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="first-slide img-fluid" src="media/la-carte/carousel.png" alt="Carousel">
 				</div>
 			</div>
 
+			<div class="container marketing navbar-spacer">
+				<hr class="featurette-divider">
+
+				<div class="row featurette">
+					<div class="col-md-6 order-md-2">
+						<img class="featurette-image img-fluid mx-auto rounded" src="media/la-carte/menu-1.png" alt="Menu : Galettes Salées">
+					</div>
+					<div class="col-md-5 order-md-1" style="display: flex; align-items: center;">
+						<img class="featurette-image img-fluid mx-auto rounded" src="media/la-carte/illustration-1.jpg" alt="Illustration">
+					</div>
+				</div>
+
+				<hr class="featurette-divider">
+
+				<div class="row featurette">
+					<div class="col-md-6 order-md-1">
+						<img class="featurette-image img-fluid mx-auto rounded" src="media/la-carte/menu-2.png" alt="Menu : Crêpes Sucrées">
+					</div>
+					<div class="col-md-5 order-md-2" style="display: flex; align-items: center;">
+						<img class="featurette-image img-fluid mx-auto rounded" src="media/la-carte/illustration-2.jpg" alt="Illustration">
+					</div>
+				</div>
+
+				<hr class="featurette-divider">
+
+				<div class="row featurette">
+					<div class="col-md-6 order-md-2">
+						<img class="featurette-image img-fluid mx-auto rounded" src="media/la-carte/menu-3.png" alt="Menu : Boissons">
+					</div>
+					<div class="col-md-5 order-md-1" style="display: flex; align-items: center;">
+						<img class="featurette-image img-fluid mx-auto rounded" src="media/la-carte/illustration-3.jpg" alt="Illustration">
+					</div>
+				</div>
+
+				<hr class="featurette-divider">
+
+			</div>
 
 			<br />
 			<br />
