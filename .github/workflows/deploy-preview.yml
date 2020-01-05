@@ -1,0 +1,21 @@
+on:
+  push:
+    branches:
+      - develop
+name: Publish Website
+jobs:
+  FTP-Deploy-Action:
+    name: FTP-Deploy-Action
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      env:
+        FTP_SERVER: ftp.nodsoft.net
+        REMOTE_DIR: lambassadebretonne
+        FTP_USERNAME: ${{ secrets.FTP_PREVIEW_USERNAME }}
+        FTP_PASSWORD: ${{ secrets.FTP_PREVIEW_PASSWORD }}
+        ARGS: --delete
+
+  # See : https://github.com/marketplace/actions/ftp-deploy
