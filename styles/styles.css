@@ -32,6 +32,12 @@ p {
     font-family: 'din-light';
   }
 
+  .nav-item > a.fab {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+  }
+
   /* SPACERS
   -------------------------------------------------- */
 
