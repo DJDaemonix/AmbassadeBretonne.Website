@@ -13,6 +13,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
       env:
         FTP_SERVER: ftp.lambassadebretonne.bzh
+        REMOTE_DIR: www
         FTP_USERNAME: ${{ secrets.FTP_RELEASE_USERNAME }}
         FTP_PASSWORD: ${{ secrets.FTP_RELEASE_PASSWORD }}
         ARGS: --delete
