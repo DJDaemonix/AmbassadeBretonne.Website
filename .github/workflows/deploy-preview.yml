@@ -2,7 +2,7 @@ on:
   push:
     branches:
       - develop
-name: Publish Website
+name: Publish Website (Preview)
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
